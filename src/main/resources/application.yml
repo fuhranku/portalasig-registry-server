@@ -1,9 +1,6 @@
-spring:
-  application:
-    name: portalasig-registry-server
+spring.application.name: portalasig-registry-server
 
-server:
-  port: 5858
+server.port: 5858
 eureka:
   client:
     register-with-eureka: false
